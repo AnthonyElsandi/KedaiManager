@@ -1,0 +1,180 @@
+.container{
+    /* supaya panjang divnya tidak satu halaman, tetapi sepanjang content */
+    display: flex;
+
+    /* 
+    biar semua kontent sejajar ditengah secara vertical
+    */
+    justify-content: center;
+
+    /*
+    ngebagi jarak antar kontent secara adil
+    justify-content: space-evenly;
+    */
+
+    /* 
+    biar semua kontent sejajar ditengah secara vertical
+    */
+    align-items: center;
+    
+    border: 1px solid black;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    background-color: rgb(52, 99, 201);
+    justify-content: space-between;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-evenly;
+    margin-right: 5%;
+}
+
+.logo{
+    margin-left: 5%;
+}
+
+.home{
+    background-color: grey;
+    margin-right: 10px;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.sign-up{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: grey;
+    padding: 9% 9%;
+    border-radius: 10px;
+}
+
+#logo_kedai_manager{
+    width: 120px;
+}
+
+#logo_home{
+    width: 50px;
+}
+
+.body{
+    background-color: rgb(193, 225, 228);
+}
+
+.upper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.upper-right{
+    /* background-color: saddlebrown; */
+    width: 40%;
+    margin: 30px;
+    /* dikasih display flex supaya bisa pake justify-content: center(biar bisa ketengah img-ny) */
+    display: flex;
+    justify-content: center;
+}
+
+#image_pos_1{
+    width: 400px;
+}
+
+.upper-left{
+    /* background-color: springgreen; */
+    width: 40%;
+    margin: 30px;
+}
+
+.lower{
+    padding-bottom: 15px;
+}
+
+.lower-title{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.lower-content{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-family: Arial;
+    margin-top: 8px;
+}
+
+.picture img{
+    width: 150px;
+}
+
+#image1{
+    width: 150px;
+    height: 150px;
+    background-image: url('../images/food-logo.png');
+    background-size: 100%;
+    /* transisi sama spereti delay */
+    transition: 0.5s;
+}
+
+#image1:hover{
+    background-color: rgb(2, 47, 77);
+}
+
+.desc{
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    background-color: rgb(52, 99, 201);
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.right{
+    /* width: 35%; */
+    margin: 8px;
+    /* dikasih display flex supaya bisa pake justify-content: center(biar bisa ketengah img-ny) */
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    /* justify-content: flex-start; */
+    /* background-color: springgreen; */
+    /* width: 35%; */
+    margin: 8px;
+    /* margin-left: 20px; */
+}
+
+.find-us{
+    margin-right: 10px;
+    /* margin-top: 12px; */
+}
+
+.socmed{
+    margin-right: 10px;
+}

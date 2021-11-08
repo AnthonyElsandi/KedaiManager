@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    background-color: rgb(52, 99, 201);
+    justify-content: space-between;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-evenly;
+    margin-right: 5%;
+}
+
+.logo{
+    margin-left: 5%;
+}
+
+.home{
+    background-color: grey;
+    margin-right: 10px;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.home img{
+    width: 50px;
+}
+
+.sign-up{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: grey;
+    padding: 9% 9%;
+    border-radius: 10px;
+}
+
+#logo_kedai_manager{
+    width: 120px;
+}
+
+#logo_home{
+    width: 10px;
+}
+
+.body{
+    background-color: rgb(193, 225, 228);
+    display: flex;
+    justify-content: center;
+}
+
+.body label{
+    font-size: 20px;
+}
+
+.form-register{
+    margin-bottom: 10%;
+    width: 50%;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    background-color: rgb(52, 99, 201);
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.right{
+    /* width: 35%; */
+    margin: 8px;
+    /* dikasih display flex supaya bisa pake justify-content: center(biar bisa ketengah img-ny) */
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    /* justify-content: flex-start; */
+    /* background-color: springgreen; */
+    /* width: 35%; */
+    margin: 8px;
+    /* margin-left: 20px; */
+}
+
+.find-us{
+    margin-right: 10px;
+    /* margin-top: 12px; */
+    margin-left: 650px;
+}
+
+.socmed{
+    margin-right: 10px;
+}
